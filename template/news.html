@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+<!-- {{user}} -->
+{% if messages %}
+{% for i in messages %}
+<div class="alert alert-success" role="alert">
+    {{ i }}
+</div>
+{% endfor %}
+{% endif %}
+
+<h3>Hello {{user}}</h3>
+<h1>Dashboard</h1>
+<hr>
+<form action=""  method="POST" enctype="multipart/form-data" >
+{{forms.as_p}}
+{% csrf_token %}
+<button types="submit"  > addnews </button>
+
+</form>
+{% endblock content %}
