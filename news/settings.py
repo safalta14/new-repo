@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7(r_9wnaci-%wq-*04&tbph*7ayk0e-of(&$h9=pij0l)_dfje
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://news-portal-gm3v.onrender.com','local host','127.0.0.1']
+ALLOWED_HOSTS = ['news-portal-gm3v.onrender.com','local host','127.0.0.1']
 
 
 # Application definition
