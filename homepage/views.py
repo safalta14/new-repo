@@ -12,7 +12,7 @@ def home(request):
         'news':News.objects.all(),
         'category':Category.objects.all(),
         'profession':'Actor',
-        'address':'address',
+    
         'age':60,
      }
     return render(request,  "index.html",dist)
